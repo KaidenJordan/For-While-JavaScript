@@ -1,8 +1,8 @@
 var wrapper = document.body.querySelector(".wrapper");
-var dragonAttack = "";
-var attack = "";
 var dragonHealth= 10;
 var userHealth = 5;
+var dragonAttack = "";
+var attack = "";
 
 while(dragonHealth>0||userHealth>0){
  attack = prompt("Enter a number between 1-5 to deal damage to the dragon.");
