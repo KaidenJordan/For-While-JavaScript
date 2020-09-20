@@ -12,7 +12,7 @@ if(attack>5){
  dragonAttack = Math.floor(Math.random()*2)+1;
  userHealth = userHealth - dragonAttack;
 //this is for if the attack is less than 5
-  }else if{
+  }else{
   dragonHealth = dragonHealth-attack;
   dragonAttack = Math.floor(Math.random()*2)+1;
   userHealth = userHealth - dragonAttack;
