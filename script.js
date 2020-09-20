@@ -10,12 +10,12 @@ while(dragonHealth>0||userHealth>0){
 if(attack>5){ 
  dragonHealth = dragonHealth-1;
  dragonAttack = Math.floor(Math.random()*2)+1;
- userHealth = userHealth - dragonAttack;
+ userHealth = userHealth-dragonAttack;
 //this is for if the attack is less than 5
   }else{
   dragonHealth = dragonHealth-attack;
   dragonAttack = Math.floor(Math.random()*2)+1;
-  userHealth = userHealth - dragonAttack;
+  userHealth = userHealth-dragonAttack;
   }
 //this is the text that shows if you kill the dragon
 if(dragonHealth<1){
